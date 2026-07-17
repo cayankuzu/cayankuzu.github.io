@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cayan.sorita.socialmap",
+      "sha256_cert_fingerprints": [
+        "74:0E:E7:DC:F1:13:D5:33:C2:1A:58:8F:B5:F3:2A:BB:97:03:59:2E:74:D5:3F:A1:E2:29:8B:50:9A:B0:F6:58"
+      ]
+    }
+  }
+]
