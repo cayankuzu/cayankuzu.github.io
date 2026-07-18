@@ -11,5 +11,18 @@
         "74:0E:E7:DC:F1:13:D5:33:C2:1A:58:8F:B5:F3:2A:BB:97:03:59:2E:74:D5:3F:A1:E2:29:8B:50:9A:B0:F6:58"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wmatch.app",
+      "sha256_cert_fingerprints": [
+        "D2:5C:63:E0:04:C2:0C:AB:8A:1D:D0:F4:88:58:55:CE:7D:8B:7B:B2:1F:8E:DF:29:29:71:C4:2C:F5:3F:2F:7B"
+      ]
+    }
   }
 ]
