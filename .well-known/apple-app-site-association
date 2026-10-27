@@ -1,0 +1,27 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["HBRG8P523Z.com.wmatch.app"],
+        "components": [
+          {
+            "/": "/WMatch_web/auth/verify",
+            "comment": "WMatch e-mail verification page, without the trailing slash"
+          },
+          {
+            "/": "/WMatch_web/auth/verify/*",
+            "comment": "WMatch e-mail verification page (Supabase redirect target)"
+          },
+          {
+            "/": "/WMatch_web/auth/reset-password",
+            "comment": "WMatch password reset page, without the trailing slash"
+          },
+          {
+            "/": "/WMatch_web/auth/reset-password/*",
+            "comment": "WMatch password reset page (Supabase redirect target)"
+          }
+        ]
+      }
+    ]
+  }
+}
